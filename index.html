@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Script Tags</h1>
+            </header>
+            <article>
+                <h2>Script Tag Browser Support</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Element</th>
+                            <th scope="col">Chrome</th>
+                            <th scope="col">Edge</th>
+                            <th scope="col">Firefox</th>
+                            <th scope="col">Safari</th>
+                            <th scope="col">Opera</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="element">&lt;script&gt;</td>
+                            <td class="yes">Yes</td>
+                            <td class="yes">Yes</td>
+                            <td class="yes">Yes</td>
+                            <td class="yes">Yes</td>
+                            <td class="yes">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                <h2>Script Tag Attributes</h2>
+                <table> 
+                    <tbody><tr>
+                      <th style="width:15%">Attribute</th>
+                      <th style="width:35%">Value</th>
+                      <th>Description</th>
+                    </tr>
+                    <tr>
+                      <td>async</td>
+                      <td>async</td>
+                      <td>Specifies that the script is downloaded in parallel to parsing the page, and executed as soon as it is available (before parsing completes) (only for external scripts)</td>
+                    </tr>
+                    <tr>
+                      <td>crossorigin</td>
+                      <td>anonymous<br>use-credentials</td>
+                      <td>Sets the mode of the request to an HTTP CORS Request</td>
+                    </tr>
+                    <tr>
+                      <td>defer</td>
+                      <td>defer</td>
+                      <td>Specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing (only for external scripts)</td>
+                    </tr>
+                    <tr>
+                      <td>integrity</td>
+                      <td><em>filehash</em></td>
+                      <td>Allows a browser to check the fetched script to ensure that the code is never loaded if the source has been manipulated</td>
+                    </tr>
+                    <tr>
+                      <td>nomodule</td>
+                      <td>True<br>False</td>
+                      <td>Specifies that the script should not be executed in browsers supporting ES2015 modules </td>
+                    </tr>
+                    <tr>
+                      <td>referrerpolicy</a></td>
+                      <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+                      origin-when-cross-origin<br>same-origin<br>strict-origin<br>
+                      strict-origin-when-cross-origin<br>unsafe-url</td>
+                      <td>Specifies which referrer information to send when fetching a script</td>
+                    </tr>
+                    <tr>
+                      <td>src</td>
+                      <td><i>URL</i></td>
+                      <td>Specifies the URL of an external script file</td>
+                    </tr>
+                    <tr>
+                      <td>type</td>
+                      <td><i>scripttype</i></td>
+                      <td>Specifies the media type of the script</td>
+                    </tr>
+                    </tbody></table>
+            </article>
+        </div>
+    </body>
+</html>
