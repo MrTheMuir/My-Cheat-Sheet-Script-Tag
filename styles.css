@@ -1,0 +1,48 @@
+body{
+    background-color:blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#container{
+    border: 2px solid darkorchid;
+    width: 80%;
+    margin: 0 auto;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border: solid 1px black;
+    border-spacing: 2px;
+    border-color: grey;
+}
+th{
+    width:20%;
+    font-size:16px;
+    text-align:center;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+td{
+    width: 16%;
+    border: solid 1px black;
+    text-align: left;
+    color: black;
+}
+td.yes{
+    background-color: green;
+    color:white;
+}
+td.element{
+    background-color:beige;
+}
+tr:nth-child(even) {
+    background-color:aliceblue;
+}
+tr:nth-child(odd) {
+    background-color:azure;
+}
